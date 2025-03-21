@@ -28,7 +28,7 @@ Efficient waste classification is crucial for sustainable recycling. This projec
 ├── README.md             # Project description
 ├── requirements.txt      # Dependencies
 ```
-<br><br>
+<br>
 
 ## 🚀 How to Use
 1. Clone the repository:
@@ -36,18 +36,23 @@ Efficient waste classification is crucial for sustainable recycling. This projec
    git clone https://github.com/akinomaria/bayesian-optimization-resnet50.git
    cd bayesian-optimization-resnet50
    ```
+   <br>
 2. Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
+   <br>
 3. Run the Jupyter Notebook:
    ```sh
    jupyter notebook "notebook/RESNET50 WITH BAYESIAN OPTIMIZATION.ipynb"
    ```
+   <br>
 4. Train the model and compare results.
 5. **Set the dataset path:** Before running the notebook, update the dataset path in the code to match where your dataset is stored. Locate the following line in the notebook:
    ```python
    dataset_path = r"C:\Users\User\Desktop\UMS\FYP\FYP 1\dataset\archive\garbage-dataset"
    ```
+   <br>
    Replace it with the actual path where you saved your dataset.
 6. **Run the notebook:** Execute each cell sequentially to preprocess the dataset, train the ResNet50 model, apply Bayesian Optimization, and evaluate results.
+   <br>
