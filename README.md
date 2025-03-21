@@ -20,13 +20,9 @@ Efficient waste classification is crucial for sustainable recycling. This projec
 ## 📂 Repository Structure
 ```
 ├── garbage-dataset/              # Dataset used for training
-├── notebooks/            # Jupyter notebooks for training and analysis
-├── src/                  # Python scripts for model training & evaluation
-├── models/               # Trained ResNet50 models
-├── results/              # Performance graphs & metrics
+├── notebook/            # Jupyter notebooks for training and analysis
 ├── README.md             # Project description
 ├── requirements.txt      # Dependencies
-├── LICENSE               # Open-source license
 ```
 
 ## 🚀 How to Use
@@ -41,6 +37,6 @@ Efficient waste classification is crucial for sustainable recycling. This projec
    ```
 3. Run the Jupyter Notebook:
    ```sh
-   jupyter notebook "notebooks/RESNET50 WITH BAYESIAN OPTIMIZATION.ipynb"
+   jupyter notebook "notebook/RESNET50 WITH BAYESIAN OPTIMIZATION.ipynb"
    ```
 4. Train the model and compare results.
