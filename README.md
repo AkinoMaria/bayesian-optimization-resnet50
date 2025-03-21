@@ -45,3 +45,9 @@ Efficient waste classification is crucial for sustainable recycling. This projec
    jupyter notebook "notebook/RESNET50 WITH BAYESIAN OPTIMIZATION.ipynb"
    ```
 4. Train the model and compare results.
+5. **Set the dataset path:** Before running the notebook, update the dataset path in the code to match where your dataset is stored. Locate the following line in the notebook:
+   ```python
+   dataset_path = r"C:\Users\User\Desktop\UMS\FYP\FYP 1\dataset\archive\garbage-dataset"
+   ```
+   Replace it with the actual path where you saved your dataset.
+6. **Run the notebook:** Execute each cell sequentially to preprocess the dataset, train the ResNet50 model, apply Bayesian Optimization, and evaluate results.
